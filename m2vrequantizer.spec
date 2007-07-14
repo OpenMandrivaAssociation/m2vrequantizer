@@ -2,7 +2,7 @@
 %define name	m2vrequantizer
 %define Name	M2VRequantizer
 %define version	20030929
-%define rel	1
+%define rel	2
 
 # This is the version that is recommended for the VDR burn plugin.
 # Feel free to upgrade after you've tested that the new version
@@ -14,7 +14,7 @@ Version:	%version
 Release:	%mkrel %rel
 Group:		Video
 License:	GPL
-URL:		http://www.metakine.com/files/
+URL:		http://www.xeatre.tv/community/burn/contrib/
 Source:		http://www.xeatre.tv/community/burn/contrib/%Name-%version.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
