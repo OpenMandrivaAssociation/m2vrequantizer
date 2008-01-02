@@ -16,6 +16,7 @@ Group:		Video
 License:	GPL
 URL:		http://www.xeatre.tv/community/burn/contrib/
 Source:		http://www.xeatre.tv/community/burn/contrib/%Name-%version.tar.bz2
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 Requantizes MPEG-2 streams without recompressing the files.
