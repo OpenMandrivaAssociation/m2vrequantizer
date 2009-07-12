@@ -2,7 +2,7 @@
 %define name	m2vrequantizer
 %define Name	M2VRequantizer
 %define version	20030929
-%define rel	2
+%define rel	3
 
 # This is the version that is recommended for the VDR burn plugin.
 # Feel free to upgrade after you've tested that the new version
@@ -13,7 +13,7 @@ Name:		%name
 Version:	%version
 Release:	%mkrel %rel
 Group:		Video
-License:	GPL
+License:	GPL+
 URL:		http://www.xeatre.tv/community/burn/contrib/
 Source:		http://www.xeatre.tv/community/burn/contrib/%Name-%version.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-buildroot
@@ -27,7 +27,7 @@ This is the version that is recommended for the VDR burn plugin.
 %setup -q -n %Name
 
 %build
-%__cc %optflags -lm -o requant main.c
+%__cc %optflags %{?ldflags} -o requant main.c -lm
 
 %install
 rm -rf %{buildroot}
