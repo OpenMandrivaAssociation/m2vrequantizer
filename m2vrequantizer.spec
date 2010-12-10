@@ -2,7 +2,7 @@
 %define name	m2vrequantizer
 %define Name	M2VRequantizer
 %define version	20030929
-%define rel	3
+%define rel	4
 
 # This is the version that is recommended for the VDR burn plugin.
 # Feel free to upgrade after you've tested that the new version
