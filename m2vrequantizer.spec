@@ -14,7 +14,7 @@ Version:	%version
 Release:	%mkrel %rel
 Group:		Video
 License:	GPL+
-URL:		http://www.xeatre.tv/community/burn/contrib/
+URL:		https://www.xeatre.tv/community/burn/contrib/
 Source:		http://www.xeatre.tv/community/burn/contrib/%Name-%version.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
