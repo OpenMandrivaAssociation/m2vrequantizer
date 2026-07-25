@@ -11,7 +11,7 @@
 Summary:	Requantizes MPEG-2 streams
 Name:		%name
 Version:	%version
-Release:	%mkrel %rel
+Release:	%rel.1
 Group:		Video
 License:	GPL+
 URL:		https://www.xeatre.tv/community/burn/contrib/
